@@ -23,16 +23,16 @@ h2 {
   padding-bottom: 10px;
 }
 
+.newColor{
+  color: #ffffff;
+}
+
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   color: #3b5998;
   font-weight: bold;
   text-align: center;
-}
-
-.newColor{
-  color: #2bd3d6;
 }
 
 h3.portfolio.newColor{
@@ -84,19 +84,16 @@ p.scan:hover{
 ul{
   display: flex;
 }
-
 header{
   display: flex;
   justify-content: center;
   padding-top: 10px;
 }
-
 footer{
   color: #FFFFFF;
   margin-top: auto;
   text-align: center;
 }
-
 button{
   padding: 10px 20px;
   background-color: #2f3236;
@@ -107,7 +104,6 @@ button{
   font-weight: bolder;
   margin-bottom: 20px;
 }
-
 button:hover{
   color: #FFFFFF;
 }
@@ -138,49 +134,39 @@ i{
   font-size: 8px;
   color: #3b5998;
 }
-
 /* top container */
-
 .photo{
   background-color: #000000;
   padding: 20px;
 }
-
 .presentation{
   max-width: 80%;
   text-align: justify;
   padding-top: 20px;
 }
-
 .presentation-follow{
   max-width: 80%;
   text-align: justify;
 }
-
 .about{
   background-color: #3b5998;
   color: #FFFFFF;
   padding: 20px 10px 20px 30px;
 }
-
 .name{
   text-align: left;
 }
-
 .space{
 margin-right: 10px;
 }
-
 .developer{
   font-size: 25px;
   color:#2bd3d6;
 }
-
 .img-face{
   max-width: 50%;
   padding-top: 5px;
 }
-
 .contact-me{
   padding: 0 0 10px;
 }
@@ -191,61 +177,51 @@ margin-right: 10px;
   display: inline-block;
   padding: 10px;
 }
-
 .linkedin{
   padding: 10px;
   width: 60px;
 }
-
+.myCV{
+  padding: 10px 0;
+}
 /* middle container */
-
 .skills{
   background-color: black;
   padding: 20px 20px;
 }
-
 .skills-h3{
   padding-bottom: 10px;
 }
-
 .align {
   text-align: left;
 }
-
 .protected {
   margin-left: 10%;
 }
-
 .education{
   background-color: #FFFFFF;
   padding: 20px 10px 20px 30px;
 }
-
 .school {
-  color: #3b5998;font-weight: bold;
+  color: #3b5998;
+  font-weight: bold;
 }
-
 .p-t{
   padding-top: 10px;
 }
-
 .middle-section{
   text-align: left;
 }
-
 .title{
   padding-bottom: 10px;
 }
-
 .course{
   margin: 0;
   padding-bottom: 10px;
 }
-
 .school {
   margin: 0;
 }
-
 .description{
   margin: 0;
 }
@@ -260,15 +236,12 @@ margin-right: 10px;
 .examples {
   padding-top: 10px;
 }
-
 .work-h3 {
   padding-top: 20px;
 }
-
 .dates-padding {
   padding-top: 10px;
 }
-
 .interests-h3 {
   padding-top: 50px;
 }
@@ -276,33 +249,177 @@ margin-right: 10px;
 .interests {
   margin-bottom: 20px;
 }
-
 .add-padding {
   padding-bottom: 20px;
 }
-
 .language{
   width: 50px;
   height: 38px;
   padding: 10px;
 }
 
-/* footer */
+/* contact.html */
+body.bodyBackground{
+  background-color: #2f3236;
+}
 
+div.card-body.contactText{
+  padding: 0;
+}
+
+h1.card-title.contact{
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.message {
+  font-size: 24px;
+}
+
+.contact_details {
+  padding-bottom: 30px;
+  text-align: center;
+  color: #2bd3d6;
+}
+.background {
+  background-color: #3b5998;
+}
+.text-color {
+  color: #FFFFFF;
+}
+
+.message-label {
+  padding: 0 0 10px;
+}
+.send_button {
+  margin-top: 10px;
+  border: 0;
+  padding: 0 10px;
+  color: #2f3236;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #D3D3D3;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+}
+
+/* footer */
 .copyright{
   padding-top: 16px;
 }
-
 .footer-black {
   background-color: #000000;
   padding: 0;
 }
-
 .footer-blue {
   background-color: #3b5998;
   padding: 0;
 }
+/* Thank You Page */
+nav{
+  background-color: #0000008C;
+}
+a{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+div.card{
+  border: 0;
+}
+div.card-body{
+  background-color: #2f3236;
+  width: 100%;
+  height:545px;
+  text-align: center;
+  color: #ffffff;
+}
+h1.card-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #2bd3d6;
+  text-align: center;
+}
+div.card-footer{
+  height: 56px;
+  background-color: #0000008C;
+}
+p.copyrightOther{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+/* contact page */
+div.contactPadding{
+  padding: 10px;
+}
 
+button.contactSendButton{
+  color: #2bd3d6;
+  background-color: #000000;
+  border-color: #000000;
+}
+button.contactSendButton:hover{
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.contactButton{
+  margin: 0;
+  padding: 0;
+}
+.modal-body{
+  background-color: #515b69;
+}
+.modal-header{
+  background-color: #ffe4c4;
+}
+/* portfolio page */
+.newColor{
+  background-color: #000000;
+}
+div.newColor{
+  background-color: #000000;
+}
+.navbar-toggler-icon{
+  background-color: #D3D3D3;
+  border-radius: 5px;
+}
+button.portfolioButton{
+  padding: 10px 20px;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: #2bd3d6;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+button.portfolioButton:hover{
+  color: #ffffff;
+}
+button.m-b{
+  margin-bottom: 0;
+}
+button.navbar-toggler.btn.btn-light{
+  background-color: #D3D3D3;
+}
+/* webflowPage/canvaPage */
+h1.card-title.webflow{
+  padding-bottom: 50px;
+}
+button.webflow{
+  padding: 10px 20px;
+  background-color: #D3D3D3;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  color: #2f3236;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
 @media (max-width: 300px){
   h1.card-title.webflow{
     font-size: 25px;
@@ -313,6 +430,30 @@ margin-right: 10px;
   }
 }
 
+.photo1{
+  background-color: #000000;
+  padding: 20px 10px;
+  width: 100%;
+}
+@media (max-width: 699px){
+  .photo{
+    padding: 20px 10px;
+  }
+  .about{
+    padding: 20px 10px;
+  }
+  .skills{
+    padding: 20px 10px;
+  }
+  .education{
+    padding: 20px 10px;
+  }
+}
+@media screen and (width > 599.98px){
+  .firstPortfolioDisplay{
+    display: none;
+  }
+}
 @media (max-width: 599px){
   .newContactMe{
     padding-top: 30px;
@@ -320,7 +461,7 @@ margin-right: 10px;
   .padding-interests{
     padding-top: 40px;
   }
-  .padding-none{
+  .padding-programming{
     padding: 0;
     margin: 0;
   }
@@ -369,31 +510,145 @@ margin-right: 10px;
     margin-right: auto;
     text-align: left;
   }
+  .portfolioDisplay{
+    display: none;
+  }
+  }
+strong.name-margin{
+  margin-right: 10px;
 }
-
-@media (max-width: 699px){
-  .photo{
-    padding: 20px 10px;
-  }
-  .about{
-    padding: 20px 10px;
-  }
-  .skills{
-    padding: 20px 10px;
-  }
-  .education{
-    padding: 20px 10px;
+input.fill{
+  width: 150px!important;
+}
+textarea.textMessage{
+  resize: both;
+  overflow: auto;
+  font-size: 16px;
+}
+form.formContact{
+  text-align: center;
+}
+@media screen and (max-width:399.98px){
+  div.modal-body{
+    padding: 16px 0 0 0;
   }
 }
-
-.photo1{
-  background-color: #000000;
-  padding: 20px 10px;
-  width: 100%;
-}
-
 @media (min-width: 600px){
   .photo1{
     display: none;
   }
+}
+
+/* cv page */
+
+h1.cv{
+  color:#3b5998;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.cv-20{
+  font-size: 20px;
+}
+.cv-18{
+  font-size: 18px;
+}
+a.cv-a{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #3b5998;
+  font-weight: bold;
+  text-decoration: underline;
+}
+a.cv-a:hover {
+  color: #7791c9;
+}
+p.cv-dates{
+  margin: 0;
+  text-align: left;
+  color: #3b5998;
+  font-weight: bold;
+}
+p.cv-p{
+  margin: 0;
+  text-align: left;
+  color: #3b5998;
+  font-weight: bold;
+}
+p.cv-p-description{
+  color: #000000;
+  font-weight: normal;
+  margin: 0;
+}
+p.cv-p-description2{
+  text-align: left;
+  margin: 0;
+  color:#000000;
+  font-weight: normal;
+}
+.p-t-10{
+  padding-top: 10px;
+}
+.p-b-10{
+  padding-bottom: 10px;
+}
+body.cv-body{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* NEW PORTFOLIO PART */
+h3.h3-portfolio{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #3b5998;
+  padding-bottom: 20px;
+} 
+h3.h3-twoSections{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #3b5998;
+  padding-bottom: 20px;
+}
+p.p-dark{
+  background-color: #515b69;
+  padding:10px 0;
+  border-radius: 5px;
+}
+
+a.a-dark{
+  text-decoration: none;
+  color:bisque;
+  font-size: 35px;
+}
+
+a.a-dark:hover{
+  color: #79808a;
+}
+p.p-light{
+  background-color: bisque;
+  padding:10px 0;
+  border-radius: 5px;
+}
+
+a.a-light{
+  text-decoration: none;
+  color:#515b69;
+  font-size: 35px;
+}
+
+a.a-light:hover{
+  color: #e6c9a8;
+}
+.p-t-20{
+  padding-top: 20px;
+}
+.linkedin{
+  border:2px solid #ffffff;
+  border-radius: 5px;
+  padding: 0;
+  width: 30px;
 }
